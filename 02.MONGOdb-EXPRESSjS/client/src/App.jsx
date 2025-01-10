@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import Add from './Formiik';
+
 
 function App() {
   const BASE_URL = "http://localhost:8080/users";
@@ -23,7 +25,18 @@ function App() {
 
   return (
     <>
-      <table className="table">
+    <br />
+    <br />br
+    br
+    br
+    br
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Add users={users} setUsers={setUsers}/>
+      <table className="table table-dark table-striped">
         <thead>
           <tr>
             <th scope="col">Name</th>
