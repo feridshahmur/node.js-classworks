@@ -1,0 +1,55 @@
+#home {
+  background-color: rgb(167, 242, 235); // Background color for the home section
+  padding: 3rem 0; // Optional padding to space out content
+
+  .acces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0; // Add padding to give spacing around the content
+
+    .homeinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    button {
+      padding: 0.8rem 2rem;
+      background-color: rgb(121, 113, 235);
+      color: white;
+      font-size: 1.1rem;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      
+    }
+  }
+
+    
+  }
+
+  
+
+  img {
+    max-height: 80vh;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px; // Optional: adds rounded corners to the image
+  }
+}
