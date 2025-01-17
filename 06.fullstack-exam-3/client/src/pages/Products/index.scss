@@ -1,0 +1,37 @@
+#meals{
+  margin: 3rem 0;
+  .cards{
+    gap: 1rem;
+    
+    .card{
+      display: flex;
+      border: none;
+      transition: all 0.5s;
+      // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 5%;
+      &:hover{
+        background-color: rgb(240, 179, 25);
+      }
+      .cardBody{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+          width: 80px;
+          border-radius: 50%;
+        }
+       
+          .name{
+  
+          }
+          .desc{
+  
+          }
+        
+      }
+      .price{
+  
+      }
+    }
+  }
+}

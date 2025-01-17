@@ -1,0 +1,30 @@
+header{
+  background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+  nav{
+    ul{
+      padding-top: 3.9rem;
+      font-weight: 800;
+      font-size: large;
+      display: flex;
+      justify-content: center;
+      gap:1rem;
+      
+      li{
+        text-align: center;
+          
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+  h1{
+    color: #fff;
+    padding: 30vh 0 0 60vh;
+  }
+}
